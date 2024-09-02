@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Sinisa Ljubanovic</title>
+  </head>
+  <body>
+    <header class="header-hero-section">
+        <div class="logo"><a href="#home">
+            <img src="../Desktop/logomoj.jpg" alt="Logo" width="50px" height="50px" /></a>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href='#about'>About Me</a></li>
+                <li><a href="#what">What I Do</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu" id="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+<header class="hero" id="home">
+        <div class="container">
+         <p id="typing-effect" class="effect">👋 my name is Sinisa Ljubanovic and I am a</p>
+            <h1><span class="highlight">Front End | WordPress</span> <span class="outline">Developer</span></h1>
+            <p class="location">based in Novi Sad, Serbia.</p>
+            <div class="image">
+                <img src="../Downloads/slikamoja-removebg-preview.png" alt="Sinisa Ljubanovic">
+            </div>
+            <div class="buttons">
+                <a href="#what" class="btn-primary" >You need a developer</a>
+                <a href="#contact" class="btn-secondary" >Contact me</a>
+            </div>
+        </div>
+    </header>
+    <div class="about-me" id="about">
+      <h1 class="about-title">About me</h1>
+      <div class="content-about-me">
+        <img
+          src="../Desktop/sin.jfif"
+          alt="Sinisa Ljubanovic"
+          class="about-picture"
+        />
+        <p>
+          Hello! I’m Sinisa Ljubanovic, a passionate Frontend and WordPress Developer with a knack for creating visually
+          stunning and highly functional websites. With a deep understanding of modern web technologies and a keen eye
+          for design, I specialize in crafting seamless user experiences that are both engaging and intuitive. I’ve
+          honed my skills in HTML, CSS, and JavaScript, and I’m proficient in WordPress, which allows me to build custom
+          themes and plugins that cater to my clients’ unique needs. My approach is centered around combining aesthetic
+          appeal with robust functionality, ensuring that every project I work on is not only beautiful but also
+          user-friendly. From responsive designs that look great on any device to optimizing site performance, I’m
+          dedicated to delivering high-quality solutions that drive results. Whether you need a new website from scratch
+          or enhancements to an existing one, I’m here to bring your vision to life. Let’s create something amazing
+          together!
+        </p>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/sinisa.ljubanovic.5/"
+            target="_blank"
+            class="social-icon facebook"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://github.com/Sinisa198"
+            target="_blank"
+            class="social-icon github"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sinisa-ljubanovic-458884237/"
+            target="_blank"
+            class="social-icon linkedin"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+   <section class="writing-section" id="what">
+  <h1>What I Do</h1>
+  <div class="posts-container" id="initial-posts">
+    <!-- Initial 3 posts -->
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/optimi.png')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Optimizing WordPress Performance</h2>
+        <p class="post-description">
+          Tips and techniques for speeding up your WordPress site, from caching solutions to optimizing your database.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+     <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/docker.avif')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Getting Started with Docker</h2>
+        <p class="post-description">
+          An introduction to Docker and containerization, including how to set up and manage containers for your applications.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/customtheme.png')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Custom Themes: A Developer's Guide</h2>
+        <p class="post-description">
+          A comprehensive guide on creating custom WordPress themes, including template files and best practices.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/csssss.jfif')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Advanced CSS Techniques for Modern Websites</h2>
+        <p class="post-description">
+          Explore advanced CSS techniques to create visually stunning and highly responsive web designs.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+  </div>
+  
+  <!-- Hidden posts -->
+  <div class="posts-container hidden-posts" id="hidden-posts">
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/js.png')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Mastering JavaScript: Tips and Techniques</h2>
+        <p class="post-description">
+          Explore advanced JavaScript concepts and best practices to enhance your coding skills and write more efficient code.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/ts.png')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Getting Started with TypeScript</h2>
+        <p class="post-description">
+          Learn how to leverage TypeScript to add type safety and improve the robustness of your JavaScript applications.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/gitlab.png')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Optimizing Your Workflow with GitLab</h2>
+        <p class="post-description">
+          Discover how to use GitLab for version control, CI/CD pipelines, and project management to streamline your development process.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+    <article class="post">
+      <div
+        class="post-image"
+        style="background-image: url('../Desktop/github.jfif')"
+      ></div>
+      <div class="post-content">
+        <h2 class="post-title">Harnessing the Power of GitHub</h2>
+        <p class="post-description">
+          Learn how to effectively use GitHub for collaborative development, code reviews, and managing open-source projects.
+        </p>
+        <a class="post-link" href="#">Read More →</a>
+      </div>
+    </article>
+   
+  </div>
+  
+  <div class="visit-blog">
+    <a href="#" id="view-more">View More →</a>
+  </div>
+</section>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <section style="padding: 60px 0; background-color: #eaeaea;" id="projects">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h2 style="text-align: center; font-size: 2.8rem; color: #333; margin-bottom: 50px; font-family: Arial, sans-serif;">
+                My projects
+            </h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 30px;">
+                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <a href='https://www.gonina.com/en/home'><img src="../Desktop/slike sajtova/gonina1.png" alt="Project Image 1" class='image-projects'   ></a>
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">Go Nina</h3>
+                        <p style="margin: 5px 0 0; font-size: 1rem;">The website "Gonina" presents the portfolio of a foreign engineer, Nina Guo, who is engaged in software development.</p>
+                    </div>
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <img src="../Desktop/redcarpet.png  " alt="Project Image 2" class='image-projects' />
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">Red Carpet Moving</h3>
+                        <p style="margin: 5px 0 0; font-size: 1rem;">"Red Carpet Moving" is a website of a company specializing in moving and transportation in the DMV (Washington D.C., Maryland, Virginia) area.</p>
+                    </div>
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <a href='https://volleyball-forever.com/'><img src="../Desktop/voll.png" alt="Project Image 3" class='image-projects'></a>
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">Volleyball Forever</h3>
+                        <p style="margin: 5px 0 0; font-size: 1rem;">"Volleyball Forever" is a website dedicated to volleyball fans, offering information, tips and resources related to the sport.</p>
+                    </div>
+                </div>
+                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                   <a href="https://reactivepay.com/"> <img src="../Desktop/reactive.png" alt="Project Image 4"  class='image-projects' ></a>
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">Reactive Pay</h3>
+                        <p style="margin: 5px 0 0; font-size: 1rem;">"ReactivePay" is a website that offers payment solutions, focusing on simplicity and efficiency in the billing process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <div class="contact-section">
+    <div class="contact-content" id="contact">
+        <div class="contact-image">
+            <img src="../Desktop/contact-left.jfif" class="contact-image" alt="Contact Image">
+        </div>
+        <div class="contact-form-container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
+
+    </div>
+  </body>
+</html>
+ <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+       
+    </script>
+<script>
+        emailjs.init('N9BJd8pk43RGraUpL'); 
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            emailjs.sendForm('service_eb7el5f', 'template_sjzhxi8', this)
+                .then(function(response) {
+                    alert('Message sent successfully!');
+                    document.getElementById('contact-form').reset();
+                }, function(error) {
+                    alert('Došlo je do greške: ' + JSON.stringify(error));
+                });
+        });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var text = document.getElementById("typing-effect");
+    text.style.width = text.scrollWidth + 'px';
+});
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const viewMoreButton = document.getElementById('view-more');
+    const hiddenPosts = document.getElementById('hidden-posts');
+
+    viewMoreButton.addEventListener('click', function() {
+      hiddenPosts.classList.toggle('active');
+      
+      if (hiddenPosts.classList.contains('active')) {
+        viewMoreButton.textContent = 'View Less ←';
+      } else {
+        viewMoreButton.textContent = 'View More →';
+      }
+    });
+  });
+
+document.getElementById('burger-menu').addEventListener('click', function() {
+    var nav = document.querySelector('.nav');
+    nav.classList.toggle('nav-active');
+});
+
+
+
+
+
+</script>
